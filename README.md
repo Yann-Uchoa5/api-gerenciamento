@@ -11,34 +11,28 @@ Atualizar as informações dos produtos, clientes e pedidos.
 Remover pedidos e clientes.
 Listar todos os pedidos, clientes e produtos.
 Consultar as informações de um pedido, cliente ou produto específico.
-Como Instalar e Executar o Projeto
-Pré-requisitos
+
+# Como Instalar e Executar o Projeto
+
 Python 3.8 ou superior
 PIP (gerenciador de pacotes do Python)
 Banco de dados (por exemplo, SQLite, PostgreSQL) ou configuração de banco em memória para testes
 Passos
-Clone o repositório:
 
-bash
-Copiar código
+# Clone o repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
 Instale as dependências: Navegue até o diretório do projeto e instale as dependências usando o PIP:
 
-bash
-Copiar código
-cd nome-do-repositorio
-pip install -r requirements.txt
 Configure o banco de dados (caso necessário):
 
 Se estiver usando um banco de dados, configure as credenciais no arquivo config.py ou similar.
 Execute o servidor: Inicie o servidor com o seguinte comando:
-
-bash
-Copiar código
 uvicorn main:app --reload
+
 Isso fará o servidor rodar em http://127.0.0.1:8000.
 
-Como Testar as Rotas Usando o Postman
+# Como Testar as Rotas Usando o Postman
 Abra o Postman.
 
 Importe as coleções de rotas (se você já tiver as coleções exportadas para o Postman):
@@ -46,21 +40,21 @@ Importe as coleções de rotas (se você já tiver as coleções exportadas para
 Clique em File > Import > Importar arquivo e selecione o arquivo .json da coleção de rotas.
 Testar as rotas:
 
-Cadastrar Produto:
+# Cadastrar Produto:
 Método: POST
 URL: http://127.0.0.1:8000/produtos
 Corpo: JSON com os dados do produto.
 
-Listar Produtos:
+# Listar Produtos:
 Método: GET
 URL: http://127.0.0.1:8000/produtos
 
-Atualizar Produto:
+# Atualizar Produto:
 Método: PUT
 URL: http://127.0.0.1:8000/produtos/{produto_id}
 Corpo: JSON com os dados atualizados.
 
-Remover Produto:
+# Remover Produto:
 Método: DELETE
 URL: http://127.0.0.1:8000/produtos/{produto_id}
 
