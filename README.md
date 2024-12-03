@@ -19,7 +19,6 @@ Este é um projeto simples desenvolvido com **FastAPI** para gerenciar uma loja 
 2. Instale as dependências necessárias com o comando:  
    ```bash
    pip install fastapi uvicorn
-
 3.Executar o servidor
    ```bash
    uvicorn main:app --reload
