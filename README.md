@@ -50,14 +50,18 @@ Cadastrar Produto:
 Método: POST
 URL: http://127.0.0.1:8000/produtos
 Corpo: JSON com os dados do produto.
+
 Listar Produtos:
 Método: GET
 URL: http://127.0.0.1:8000/produtos
+
 Atualizar Produto:
 Método: PUT
 URL: http://127.0.0.1:8000/produtos/{produto_id}
 Corpo: JSON com os dados atualizados.
+
 Remover Produto:
 Método: DELETE
 URL: http://127.0.0.1:8000/produtos/{produto_id}
+
 E assim por diante para as rotas de clientes e pedidos.
