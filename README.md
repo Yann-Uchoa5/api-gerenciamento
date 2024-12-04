@@ -24,7 +24,7 @@ Este é um projeto simples desenvolvido com **FastAPI** para gerenciar uma loja 
    uvicorn main:app --reload
 4. Isso fará o servidor rodar em http://127.0.0.1:8000.
 
-## Como testar as rotas no POSTMAN
+## Como testar as rotas no Postman
 
 - Cadastrar Produto:
 Método: POST
